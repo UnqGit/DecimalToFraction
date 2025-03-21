@@ -1,5 +1,5 @@
 # Number to fraction
-Takes any number from the user and gives the fractional disokay of that number, both proper and improper
+Takes any number from the user and gives the fractional display of that number, both proper and improper
 
 ## Functionality 
 A console applications that takes a number from the user and gives the fractional value, if a incorrect number is entered, you will be reprompted to enter the value again.
@@ -11,13 +11,19 @@ A console applications that takes a number from the user and gives the fractiona
 
 ## Features
 - Mixed and improper fractions.
+- Handles negative numbers.
 - Error % vs. real-world constants(if user inputs value accurately upto 6 digits, the constants: pi,e,phi,sqrt2,ln2).
 - Supports big decimals with precision.
 
 ## Example
-**Input:** `3.14159`  
-**Output:**
+**Input:** Enter a number: `3.14159263`
 
+**Output:**
+```md
+3 + 99257/701004
+Or: 2202269/701004
+Error: 0.0000007509%
+```
 ## Accuracy
 If you want a less accuracy but shorter fraction you can change the loop **from**:
 
